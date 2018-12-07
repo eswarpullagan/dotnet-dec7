@@ -23,7 +23,7 @@ metadata:
 spec:
   ports:
   - port: 8888
-    nodePort: 31112
+    nodePort: 31121
     targetPort: codeport
     protocol: TCP
   selector:
