@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: dotnet-dec7-eswar
-        image: adityaregistry.azurecr.io/myapache2-code-eswar:#{Build.BuildId}#
+        image: adityaregistry.azurecr.io/eswarpullagan/myapache2-code-eswar:#{Build.BuildId}#
         ports:
         - name: codeport
           containerPort: 5000
