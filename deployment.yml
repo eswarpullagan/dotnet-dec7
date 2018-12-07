@@ -14,7 +14,7 @@ spec:
         image: adityaregistry.azurecr.io/myapache2-code-eswar:#{Build.BuildId}#
         ports:
         - name: codeport
-          containerPort: 80
+          containerPort: 5000
 ---
 apiVersion: v1
 kind: Service
